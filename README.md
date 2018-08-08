@@ -1,3 +1,8 @@
+# ready-to-use mysql (v-5.7.22) container with utf8mb4 enabled
+> https://hub.docker.com/r/maheshgawali/mysql-5-7-22-utf8mb4/
+
+base mysql version : 5.7.22
+
 # docker-mysql-utf8mb4
 
 Inherits the standard mysql image and adds support for real UTF-8 standard.
@@ -46,3 +51,5 @@ https://medium.com/@adamhooper/in-mysql-never-use-utf8-use-utf8mb4-11761243e434
 
 Docker image for utf8 support (DNH Soft)
 https://github.com/dnhsoft/docker-mysql-utf8
+
+Thanks to guillaumeprevost/docker-mysql-utf8mb4 from where this repo was forked for putting this out.
